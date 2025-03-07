@@ -1,0 +1,29 @@
+body {
+    background-color: #F5F5F5;
+}
+
+h1 { 
+    color: #003366
+}
+
+.footer-table{
+    background-color: #F5F5F5;
+}
+
+.pagination .page-item .page-link {
+    color: #003366;
+    border: none;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #003366;
+    border-color: #003366;
+    color: white;
+}
+
+.custom-space{
+    border-bottom: 1px solid rgb(221, 218, 218);
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
