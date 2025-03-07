@@ -502,3 +502,19 @@
 </li>
 
 
+<li class="nav-item">
+    <a href="{{ route('advisors.index') }}"
+       class="nav-link {{ Request::is('advisors*') ? 'active' : '' }}">
+        <p>Advisors</p>
+    </a>
+</li>
+
+
+<li class="nav-item">
+    <a href="{{ route('monthlyDatas.index') }}"
+       class="nav-link {{ Request::is('monthlyDatas*') ? 'active' : '' }}">
+        <p>Monthly Datas</p>
+    </a>
+</li>
+
+

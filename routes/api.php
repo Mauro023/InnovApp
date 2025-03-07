@@ -44,3 +44,9 @@ Route::resource('services', App\Http\Controllers\API\ServiceAPIController::class
 
 
 Route::resource('employees', App\Http\Controllers\API\EmployeeAPIController::class);
+
+
+Route::resource('advisors', App\Http\Controllers\API\AdvisorAPIController::class);
+
+
+Route::resource('monthly_datas', App\Http\Controllers\API\MonthlyDataAPIController::class);

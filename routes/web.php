@@ -68,3 +68,9 @@ Route::group(['middleware' => ['auth', 'check.password.change']], function()
 
     Route::resource('employees', App\Http\Controllers\EmployeeController::class);
 });
+
+
+Route::resource('advisors', App\Http\Controllers\AdvisorController::class);
+
+
+Route::resource('monthlyDatas', App\Http\Controllers\MonthlyDataController::class);
