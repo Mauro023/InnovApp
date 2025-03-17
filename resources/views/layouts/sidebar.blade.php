@@ -8,7 +8,8 @@
         <div>
             <div class="pagename">
                 <i class="fas fa-hospital-alt" id="cloud" style="color: #A2C61E;"></i>
-                <span class="mt-3"><span style="color: #A2C61E;">CUMI</span><span style="color: #14ABE3; margin-left: 0">TECH</span></span>
+                <img src="{{ asset('images/Logo(1)-Sin fondo.png') }}" 
+                alt="{{ config('app.name') }}" style="width: 100%; height: auto; margin-right: 10px">
             </div>
             <div class="space mt-0"></div>
         </div>
